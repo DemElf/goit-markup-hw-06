@@ -320,6 +320,7 @@
         </div>
       </section>
     </main>
+
       <!-- =========section-footer========= -->
     <footer class="page-footer">
       <div class="page-footer-container container">
@@ -360,8 +361,20 @@
             </li>
           </ul>
         </div>
+        <form class="footer-subscribe">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <div class="footer-wraper">
+            <input class="subscribe-email-user" aria-label="email" type="email" name="subscribe-email-user" placeholder="E-mail">
+            <button class="subscribe-btn" type="submit">Subscribe
+              <svg class="subscribe-svg">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
+    <!-- //=========section-footer=========// -->
 
     <!-- =========modal-window========= -->
     <div class="backdrop is-hidden" data-modal>
@@ -373,7 +386,7 @@
         </button>
       </div>
     </div>
-
+    <!-- //=========modal-window=========// -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
